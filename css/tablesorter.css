@@ -1,0 +1,18 @@
+﻿/*table sorter*/
+table.sortable>thead>tr> th:not(.sorter-false) {
+    background-image: url(/Images/Plugin/tablesorter/arrow.png);
+    cursor: pointer; 
+    background-repeat: no-repeat; 
+   background-position: top -40px right 5px; 
+    padding-right: 20px; 
+    outline:none;
+}
+table.sortable th.tablesorter-headerAsc {
+     background-position: top 10px right 5px !important; 
+}
+table.sortable th.tablesorter-headerDesc {
+     background-position:top -10px right 5px !important; 
+}
+table.sortable th.tablesorter-headerUnSorted {
+    background-position: top -40px right 5px; 
+}

@@ -1,0 +1,2 @@
+<input name="" type="text" id="" class="required" disabled="" value="<?php echo $selected['Acc_Name'] ?>" />
+<input name="accountName" type="hidden" id="accountName" class="required" value="<?php echo $selected['Acc_SlNo'] ?>" />

@@ -1,0 +1,549 @@
+﻿section.instructions {
+    float: left;
+    width: 500px;
+    margin-right: 15px;
+}
+
+div.general > div > div.quickeytype {
+    margin-top: 10px;
+}
+
+span.name {
+    float: left;
+    display: inline-block;
+    margin-right: 8px;
+    padding: 5px 0 0 5px !important;
+}
+
+ul.option > li {
+    display: inline-block;
+}
+
+    ul.option > li:first-child {
+        margin-right: 20px;
+    }
+
+    ul.option > li > small {
+        padding-left: 20px;
+    }
+
+span.rbReturnType {
+    display: block;
+    padding: 0 !important;
+}
+
+section.instructions div.general {
+    border: 1px solid #DDDDDD;
+}
+
+    section.instructions div.general > div {
+        padding: 10px;
+    }
+
+section.instructions div > h2 {
+    margin: 0px;
+    font-weight: 300;
+    padding: 0.83em 15px;
+    border-bottom: 1px solid #ddd;
+    background: #e6e6e6 url(/Images/NewUI/topview_gradient.png) repeat-x 50% 50%;
+    -webkit-box-shadow: inset 0 0 0 1px rgba(255,255,255,.15),0 0 3px rgba(0,0,0,.1);
+    -moz-box-shadow: inset 0 0 0 1px rgba(255,255,255,.15),0 0 3px rgba(0,0,0,.1);
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.15),0 0 3px rgba(0,0,0,.1);
+    font-family: 'Roboto Slab', serif;
+    color: #464646;
+}
+
+section.instructions div.general > div span {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+}
+
+
+section.instructions div.templatename input {
+    padding: 9px !important;
+    width: 283px;
+    border: 1px solid #C8D3DF;
+}
+
+table.radBtnQuickKeyType {
+    width: 100%;
+}
+
+    table.radBtnQuickKeyType tr {
+        float: left;
+    }
+
+        table.radBtnQuickKeyType tr label {
+            font-weight: bold;
+            color: #444444;
+        }
+
+        table.radBtnQuickKeyType tr small {
+            display: block;
+            padding-left: 20px;
+            font-size: 10px;
+            color: #444444;
+        }
+
+section.quickKeys {
+    width: 393px;
+    float: left;
+}
+
+section.instructions div.tips {
+    margin-top: 12px;
+    border: 1px solid #ddd;
+    color: #444444;
+}
+
+    section.instructions div.tips ul {
+        margin: 20px 0 0 0;
+        padding: 0;
+        list-style: none;
+    }
+
+        section.instructions div.tips ul li {
+            margin: 0 0 20px 12px;
+            padding: 0;
+            list-style: none;
+        }
+
+            section.instructions div.tips ul li strong {
+                font-family: 'Roboto Slab', serif;
+                border: solid 1px #585858;
+                padding: 1px;
+                border-radius: 50%;
+                font-size: 14px;
+                display: inline-block;
+                height: 20px;
+                width: 20px;
+                text-align: center;
+                margin-right: 7px;
+            }
+
+            section.instructions div.tips ul li p {
+                margin: 0;
+                padding: 0;
+                display: inline-block;
+                font-family: 'Roboto Slab', serif;
+                font-size: 14px;
+            }
+
+/* tabs*/
+div#tabs, div#tabs > div {
+    background: transparent !important;
+    background-image: none !important;
+    border-width: 0px !important;
+    width:100%;
+}
+
+ul.quickKeyTabs {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 376px;
+    display: table !important;
+    table-layout: fixed;
+    list-style: none;
+    background: transparent;
+    border: none !important;
+    line-height: 1.3;
+}
+ul.quickKeyBigTab  {
+       display: block !important;
+    table-layout: auto;
+}
+
+.quickKeyTabs .ui-helper-clearfix:before, .quickKeyTabs .ui-helper-clearfix:after {
+    content: "";
+    display: table;
+}
+
+ul.quickKeyTabs > li {
+    display: table-cell;
+    width: 100%;
+    background: transparent;
+    border: none !important;
+    text-transform: uppercase;
+}
+ul.quickKeyBigTab > li{
+       display: block !important;
+   float:left;
+   width:94px;
+}
+.quickKeysEditor ul.quickKeyBigTab > li {
+     width:85px;
+}
+    ul.quickKeyTabs > li > a {
+        display: block;
+        background: #ffffff; /* Old browsers */
+        background: -moz-linear-gradient(top, #ffffff 0%, #eeeeee 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* IE10+ */
+        background: linear-gradient(to bottom, #ffffff 0%,#eeeeee 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+        text-align: center;
+        color: #aaa !important;
+        padding: 9px 0px;
+        font-size: 14px;
+        border: 1px solid #ddd;
+        border-bottom: 1px solid #ddd !important;
+        text-decoration: none;
+        font-weight: bold;
+        outline: none;
+        border-left: none;
+        position:relative;
+    }
+
+        ul.quickKeyTabs > li > a > span {
+            text-transform: uppercase;
+        }
+
+    ul.quickKeyTabs > li.ui-tabs-active > a > span {
+        color: #268EC1 !important;
+        outline: none;
+    }
+
+
+    ul.quickKeyTabs > li > a > i {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background-image: url("/Styles/JqueryUI/images/ui-icons_6da8d5_256x240.png");
+        background-repeat: no-repeat;
+        background-position: -80px -128px;
+        line-height: 0;
+        vertical-align: top;
+        text-indent: 999em;
+        white-space: nowrap;
+        overflow: hidden;
+        margin: 0 10px 0 0;
+        
+        float:right;
+    }
+
+.quickKeysEditor ul.quickKeyTabs > li > a > i {
+    position: absolute;
+    right: -10px;
+}
+
+
+ul.quickKeyTabs li:nth-child(4n +1) a {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-left: 1px solid #ddd !important;
+}
+
+ul.quickKeyTabs li:nth-child(4n +0) a {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+ul.quickKeyTabs li:nth-child(n +5) a {
+    border-top: none;
+}
+
+ul.quickKeyItems {
+    margin: 17px 0 0 2px;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+}
+
+    ul.quickKeyItems li {
+        float: left;
+        width: 80px;
+        cursor: pointer;
+        margin-bottom: 10px;
+        margin-right: 17px;
+        background: #EEE;
+        background: -moz-linear-gradient(top, #eeeeee 1%, #ffffff 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#EEE), color-stop(100%,#FFF));
+        background: -webkit-linear-gradient(top, #EEE 1%,#FFF 100%);
+        background: -o-linear-gradient(top, #eeeeee 1%,#ffffff 100%);
+        background: -ms-linear-gradient(top, #eeeeee 1%,#ffffff 100%);
+        background: linear-gradient(to bottom, #EEE 1%,#FFF 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 );
+        border-radius: 5px;
+        height: 112px;
+        -webkit-box-shadow: 0px 0px 1px 1px #CFCFCF;
+        box-shadow: 0px 0px 1px 1px #CFCFCF;
+    }
+
+        ul.quickKeyItems li img {
+            height: 80px;
+            width: 80px;
+        }
+
+    ul.quickKeyItems:not(.sortable) li:nth-child(4n) {
+        margin-right: 0;
+    }
+
+    ul.quickKeyItems:not(.sortable) li:nth-last-child(-n+4) {
+        margin-bottom: 0;
+    }
+
+    ul.quickKeyItems li.tilePlaceholder {
+        background: #FFDE5C;
+        -webkit-box-shadow: 0px 0px 1px 1px #FFCC00;
+        box-shadow: 0px 0px 1px 1px #FFCC00;
+    }
+
+    ul.quickKeyItems li > a {
+        display: block;
+        height: 100%;
+    }
+
+    ul.quickKeyItems li i {
+        background-image: url(/Images/Icon/Op/Delete_grey.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 9px;
+        height: 9px;
+        top: 5px;
+        right: 5px;
+    }
+
+    ul.quickKeyItems li span {
+        display: block;
+        text-align: center;
+        width: 100%;
+        font-size: 11px;
+        font-weight: bold;
+        color: black;
+        overflow: hidden;
+    }
+
+    ul.quickKeyItems li i:hover {
+        background-position: -9px 0;
+    }
+
+
+.quickKeysEditor ul.quickKeyTabs {
+    width: 340px;
+}
+
+.quickKeysEditor ul.quickKeyItems li {
+    background: #ffffff;
+    position: relative;
+}
+
+    .quickKeysEditor ul.quickKeyItems li a {
+        display: block;
+    }
+
+    .quickKeysEditor ul.quickKeyItems li.empty {
+        background: #f4f4f4;
+    }
+
+.quickKeysEditor a.btn-add {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    text-shadow: 0 1px 0 #fff;
+    background-color: #f1f1f3;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    padding: 3px 6px;
+    right: 20px;
+    top: 10px;
+    position: absolute;
+    color: #333;
+    line-height: 1em;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+}
+
+.quickKeysEditor .ui-tabs-nav .ui-state-active a {
+    cursor: pointer !important;
+}
+
+ul.linkDefaultImage li a {
+    font-size: 12px;
+    height: 100%;
+}
+
+    ul.linkDefaultImage li a span {
+        padding-top: 45px;
+    }
+
+form.full_screen ul.quickKeyItems li {
+    margin-bottom: 25px;
+}
+
+
+td.deleteQuickKey {
+    vertical-align: top !important;
+}
+
+    td.deleteQuickKey a#removeqk {
+        cursor: pointer !important;
+        background-image: url(/Images/Icon/QuickKey/clean.png);
+        height: 16px;
+        width: 12px;
+        display: block;
+        margin-top: 6px;
+        margin-left: 4px;
+    }
+
+input[type=text].templateName {
+    padding: 7px !important;
+    width: calc(100% - 16px);
+    border: 1px solid #C8D3DF;
+}
+
+
+@media screen and (max-width:1024px) {
+    section.cashier hgroup input.datepicker {
+        width: 78px !important;
+    }
+
+    form.full_screen ul.quickKeyItems li:nth-child(3n+3) {
+        margin-right: 0 !important;
+    }
+
+    form.full_screen div.subQuickkey li:nth-child(3n+3) {
+        margin-right: 0 !important;
+    }
+
+    form.full_screen ul.quickKeyItems:not(.sortable) li:nth-child(4n) {
+        margin-right: 17px;
+    }
+
+    form.full_screen div.subQuickkey:not(.sortable) li:nth-child(4n) {
+        margin-right: 17px;
+    }
+
+    form.full_screen section.bgQuickkeyIllustration {
+        background-image: url(/Images/Cashier/default-original2.png) !important;
+        background-repeat: no-repeat;
+        height: 544px;
+    }
+
+    form.full_screen a#LinkConfigureQuickkey {
+        top: 160px !important;
+        left: 15px !important;
+    }
+
+    section.cashier hgroup section {
+        padding: 3px 9px 3px 0 !important;
+        margin: 0 9px 0 0 !important;
+    }
+
+    form.full_screen ul.quickKeyTabs {
+        width: 281px !important;
+    }
+
+    section.cashier hgroup section.outlet span {
+        min-width: 120px;
+    }
+
+    section.cashier hgroup section.sales select {
+        min-width: 132px !important;
+    }
+
+    form.full_screen ul.quickKeyItems:not(.sortable) li:nth-last-child(-n+4) {
+        margin-bottom: 10px !important;
+    }
+
+    form.full_screen div.subQuickkey:not(.sortable) li:nth-last-child(-n+4) {
+        margin-bottom: 10px !important;
+    }
+
+    form.full_screen section.cashier > hgroup > div, form.full_screen section.cashier > main {
+        width: 886px;
+    }
+
+    section.cashier hgroup section.sales select {
+        padding: 6px !important;
+    }
+
+    form.full_screen div.subQuickkey ul.items li {
+        float: left;
+        width: 80px !important;
+        cursor: pointer;
+        margin-bottom: 10px;
+        margin-right: 17px;
+        background: #EEE;
+        background: -moz-linear-gradient(top, #eeeeee 1%, #ffffff 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#EEE), color-stop(100%,#FFF));
+        background: -webkit-linear-gradient(top, #EEE 1%,#FFF 100%);
+        background: -o-linear-gradient(top, #eeeeee 1%,#ffffff 100%);
+        background: -ms-linear-gradient(top, #eeeeee 1%,#ffffff 100%);
+        background: linear-gradient(to bottom, #EEE 1%,#FFF 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 );
+        border-radius: 5px;
+        height: 57px !important;
+        -webkit-box-shadow: 0px 0px 1px 1px #CFCFCF;
+        box-shadow: 0px 0px 1px 1px #CFCFCF;
+    }
+
+    form.full_screen ul.quickKeyItems li {
+        float: left;
+        width: 80px !important;
+        cursor: pointer;
+        margin-bottom: 10px;
+        margin-right: 17px;
+        background: #EEE;
+        background: -moz-linear-gradient(top, #eeeeee 1%, #ffffff 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#EEE), color-stop(100%,#FFF));
+        background: -webkit-linear-gradient(top, #EEE 1%,#FFF 100%);
+        background: -o-linear-gradient(top, #eeeeee 1%,#ffffff 100%);
+        background: -ms-linear-gradient(top, #eeeeee 1%,#ffffff 100%);
+        background: linear-gradient(to bottom, #EEE 1%,#FFF 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 );
+        border-radius: 5px;
+        height: 60px !important;
+        -webkit-box-shadow: 0px 0px 1px 1px #CFCFCF;
+        box-shadow: 0px 0px 1px 1px #CFCFCF;
+    }
+
+    form.full_screen section.cashier > main section.quickKeys {
+        width: 283px !important;
+        height: 404px;
+        overflow: hidden;
+    }
+
+    form.full_screen ul.quickKeyItems li span {
+        padding-top: 20px;
+    }
+
+    form.full_screen div.subQuickkey ul.items li span {
+        padding-top: 20px !important;
+    }
+
+    form.full_screen section.cart div.table {
+        height: 234px !important;
+    }
+
+    form.full_screen section.cart div.content {
+        height: 384px !important;
+    }
+
+    form.full_screen section.cashier > main section.cart {
+        width: 576px !important;
+    }
+
+    form.full_screen div.action button {
+        padding: 10px 9px 10px 9px;
+    }
+
+    form.full_screen section.cart table.cart td {
+        padding: 6px 5px !important;
+    }
+
+    form.full_screen header div.more_menu {
+        top: 0 !important;
+    }
+
+    form.full_screen ul.quickKeyItems li img {
+        display: none;
+    }
+}

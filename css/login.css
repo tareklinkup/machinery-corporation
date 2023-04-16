@@ -1,0 +1,600 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial,Helvetica,sans-serif;
+    background-color: #ddd;
+    background-repeat: repeat-x;
+    background-position: left top;
+    color: Black;
+}
+
+div.login_pane {
+    margin: 120px auto 0 auto;
+    padding: 0;
+    width: 900px;
+    border-radius: 5px;
+    background-color: white;
+    -webkit-box-shadow: 0px 1px 0px 1px rgba(69,66,69,1);
+    -moz-box-shadow: 0px 1px 0px 1px rgba(69,66,69,1);
+    box-shadow: 0px 1px 0px 1px rgba(69,66,69,0.1);
+    webkit-box-shadow: inset 0 0 0 1px rgba(255,255,255,.10),0 0 2px rgba(0,0,0,.1);
+    -moz-box-shadow: inset 0 0 0 1px rgba(255,255,255,.10),0 0 2px rgba(0,0,0,.1);
+}
+
+h1 {
+    display: block;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    color: #464646;
+}
+
+div.news {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    height: 350px;
+    border-radius: 10px 0 0 10px;
+    width: 300px;
+    display: inline-block;
+}
+
+    div.news h1 {
+        text-align: center;
+        margin: 30px 0 30px 0;
+    }
+
+div.sign_in {
+    margin: 0;
+    padding: 0 45px 0 45px;
+    float: right;
+    height: 350px;
+    width: 505px;
+    border-radius: 0 10px 10px 0px;
+    border-left: 1px solid #ddd;
+}
+
+    div.sign_in h1 {
+        text-align: left;
+        margin: 30px 0 26px 10px;
+    }
+
+    div.sign_in div.form-block {
+    }
+
+    div.sign_in > .form-block > h2 {
+        margin: 0 0 18px 0;
+        padding: 0;
+        color: #437197;
+        font-family: 'Roboto Slab', serif;
+        font-weight: normal;
+        font-size: 20px;
+        padding-left: 10px;
+        text-align: left;
+    }
+
+div.row {
+    display: block;
+    margin: 0 0 12px 0;
+    position: relative;
+    padding: 15px 16px 15px 46px;
+    border-radius: 5px;
+    border: 1px solid #ddd !important;
+    height: 16px;
+    background-image: url(../images/Login/icon.png);
+    background-repeat: no-repeat;
+    background-position: 11px 11px;
+    text-align: left;
+}
+
+    div.row > input {
+        margin: 0;
+        padding: 0;
+        width: 95%;
+        font-size: 16px;
+        border: none;
+        color: #191919;
+    }
+
+div.action {
+    height: 50px;
+}
+
+div.sign_in div.action div.forgot {
+    float: left;
+    margin: 18px 40px 0 10px;
+    padding: 0;
+}
+
+div.sign_in div.action div.remember {
+    float: left;
+    margin: 18px 0 0 0;
+}
+
+    div.sign_in div.action div.remember input {
+        float: left;
+        display: block;
+        margin: 1px 6px 0 0;
+        padding: 0;
+    }
+
+    div.sign_in div.action div.remember label {
+        float: left;
+        display: block;
+        margin: 0;
+        padding: 0;
+        color: #464646;
+        font-size: 11px;
+    }
+
+input[type=submit] {
+    padding: 15px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    width: 180px;
+    float: right;
+    color: #fff;
+    border: none;
+    font-family: 'Roboto Slab', serif;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-weight: normal;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px Gray;
+    line-height: 16px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: #048181;
+    border: 1px solid #048181;
+}
+
+div.password {
+    background-position: 11px -42px !important;
+    margin-bottom: 14px !important;
+}
+
+div.forgot_password {
+    position: relative;
+    background-color: white;
+    float: left;
+    margin: 0;
+    height: 280px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+a.forgot, a.forgot:visited {
+    display: block;
+    color: #0077d6;
+    text-decoration: none;
+}
+
+    a.forgot:hover {
+        text-decoration: underline;
+    }
+
+a.return, a.return:visited {
+    display: block;
+    color: #868686;
+    text-decoration: none;
+}
+
+    a.return:hover {
+        text-decoration: underline;
+    }
+
+a.return {
+    display: block;
+    float: right;
+    margin: 10px 10px 0 0;
+}
+
+
+
+input.submit {
+    float: left;
+}
+
+div.copyright {
+    margin: 40px auto 0 auto;
+    text-align: center;
+    color: #666;
+}
+
+    div.copyright span, div.copyright a {
+        display: inline-block;
+        line-height: 0;
+        vertical-align: top;
+        padding-top: 10px;
+    }
+
+    div.copyright span {
+        margin-right: 10px;
+        align-self: center;
+    }
+
+    div.copyright a, div.copyright a:visited {
+        width: 180px;
+        height: 15px;
+        background-image: url(../images/link-up-technology.png);
+        background-position: left top;
+        background-repeat: no-repeat;
+    }
+
+    div.copyright a {
+    }
+
+        div.copyright a:hover {
+            color: #105CB6;
+            text-decoration: underline;
+        }
+
+div.error {
+    margin: 0 0 8px 0;
+    padding: 8px 0 12px 0;
+    background-color: #fbeaea;
+    border: 1px solid #d92929;
+    color: #d92929;
+    border-radius: 3px;
+    text-align: center;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+}
+
+div.success {
+    background-color: #ffffe1;
+    background-image: url("/images/icon/success.png");
+    background-position: 8px center;
+    background-repeat: no-repeat;
+    border: 1px solid #CACACA;
+    margin-bottom: 10px;
+    padding: 8px 8px 8px 32px;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+/*JQUERY CYCLE*/
+
+.cycle-slideshow, .cycle-slideshow * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cycle-caption {
+    width: 100%;
+    color: #464646;
+    font-size: 14px;
+    text-align: center;
+    background-color: white;
+    z-index: 700;
+}
+
+.cycle-slideshow {
+    margin: 0 auto;
+    padding: 0;
+    width: 280px;
+    max-height: 220px;
+    position: relative;
+    text-align: center;
+}
+
+    .cycle-slideshow a {
+        display: block;
+    }
+
+    .cycle-slideshow img {
+        margin: 0 auto 12px auto;
+        padding: 0;
+        width: 242px;
+        height: 128px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        display: block;
+    }
+
+        .cycle-slideshow img:first-child {
+            position: static;
+            z-index: 100;
+        }
+
+    .cycle-slideshow strong {
+        font-family: 'Roboto', serif;
+        color: #437197;
+    }
+
+    .cycle-slideshow p {
+        margin: 8px 0 0 0;
+        padding: 0 10px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+.cycle-pager {
+    text-align: center;
+    width: 100%;
+    z-index: 500;
+    position: absolute;
+    top: 10px;
+    overflow: hidden;
+}
+
+.example-pager {
+    text-align: center;
+    color: #ddd;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    cursor: pointer;
+    z-index: 217;
+    font-size: 72px;
+}
+
+    .example-pager span.cycle-pager-active {
+        margin: 0;
+        padding: 0;
+        color: #89b03e;
+        font-size: 72px;
+        line-height: 0;
+        height: 0;
+    }
+
+.cycle-pager > * {
+    cursor: pointer;
+}
+
+div.news h2 {
+    margin: 5px 0 20px 0;
+    text-align: left;
+    color: white !important;
+    font-size: 18px;
+    padding: 0 25px;
+}
+
+
+
+
+.cycle-overlay {
+    font-family: tahoma, arial;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 600;
+    background: black;
+    color: white;
+    padding: 15px;
+    opacity: .5;
+}
+
+
+.cycle-paused:after {
+    content: 'Paused';
+    color: white;
+    background: black;
+    padding: 10px;
+    z-index: 500;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 10px;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+
+div.return {
+    float: left;
+    padding-left: 10px;
+    margin-right: 50px;
+    margin-top: 11px;
+}
+
+label:hover:before {
+    border: 1px solid #4778d9 !important;
+}
+
+input[type=submit]:hover {
+    background-color: #026969;
+    border-color: #026969;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: white;
+    }
+
+    div.sign_in {
+        text-align: center;
+        border: none;
+        background: none;
+        margin: 0;
+        padding: 0;
+        float: none !important;
+        width: auto !important;
+        height: auto !important;
+    }
+
+        div.sign_in h1 {
+            margin: 25px 0 15px 0 !important;
+            padding: 0 !important;
+            text-align: center !important;
+            font-weight: bold;
+        }
+
+    h2 {
+        text-align: center !important;
+        margin: 0 0 15px 0 !important;
+        padding: 0 !important;
+    }
+
+    div.form-block {
+        border: none;
+        box-shadow: none;
+        background: none;
+        margin-top: 0px;
+        padding: 10px !important;
+    }
+
+    a.forgot, a.forgot:visited {
+        clear: both;
+        margin: 0;
+        text-align: center;
+        padding-left: 10px;
+        font-size: 11px;
+    }
+
+    div.remember {
+        float: right;
+        padding-right: 20px !important;
+    }
+
+        div.remember input {
+            margin: 1px 6px 0 20px;
+        }
+
+        div.remember label {
+            float: right;
+            color: #868686;
+            font-size: 11px;
+        }
+
+    input[type=submit] {
+        border: none;
+        margin: 0;
+        width: 98%;
+        float: none;
+        box-shadow: none;
+    }
+
+    ::-webkit-input-placeholder {
+        color: #ddd;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+        color: #ddd;
+    }
+
+    ::-moz-placeholder { /* Firefox 19+ */
+        color: #ddd;
+    }
+
+    :-ms-input-placeholder {
+        color: #ddd;
+    }
+
+    div.copyright span {
+    }
+
+    div.copyright a, div.copyright a:visited {
+    }
+
+
+    div.news {
+        float: none;
+        margin: 0 auto;
+    }
+
+        div.news h1 {
+            margin: 50px 0 20px 0 !important;
+        }
+
+    div.login_pane, div.login_pane_forgot {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        float: none;
+        box-shadow: none;
+    }
+
+    div.news h1, div.news .cycle-caption {
+        text-align: center;
+    }
+
+    div.return {
+        float: none;
+        text-align: center;
+        padding: 0;
+        margin: 0 0 10px 0;
+    }
+
+        div.return a {
+            float: none;
+        }
+
+    div.forgot_password_pane {
+        margin: 20px 0 0 0 !important;
+        padding: 10px !important;
+        width: auto !important;
+        box-shadow: none !important;
+    }
+
+        div.forgot_password_pane h1 {
+            text-align: center !important;
+        }
+}
+
+input:focus {
+    outline: none !important;
+    border: none;
+    box-shadow: 0 0 5px #fff;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #ddd;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #ddd;
+    opacity: 1;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #ddd;
+    opacity: 1;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ddd;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 50px white inset; /* Change the color to your own background color */
+    -webkit-text-fill-color: #868686;
+}
+
+/* Forgot Password STYLE */
+div.forgot_password_pane {
+    margin: 120px auto 0 auto;
+    padding: 30px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: white;
+    height: auto;
+    -webkit-box-shadow: 0px 1px 0px 1px rgba(69,66,69,1);
+    -moz-box-shadow: 0px 1px 0px 1px rgba(69,66,69,1);
+    box-shadow: 0px 1px 0px 1px rgba(69,66,69,0.1);
+    webkit-box-shadow: inset 0 0 0 1px rgba(255,255,255,.10),0 0 2px rgba(0,0,0,.1);
+    -moz-box-shadow: inset 0 0 0 1px rgba(255,255,255,.10),0 0 2px rgba(0,0,0,.1);
+}
+
+    div.forgot_password_pane h1 {
+        margin: 0 0 12px 0;
+        padding: 0;
+        text-align: left;
+    }

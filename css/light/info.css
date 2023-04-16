@@ -1,0 +1,189 @@
+﻿.small_section {
+    float: left;
+    width: 350px;
+    padding-left: 15px;
+    height: 380px;
+}
+
+.large_section {
+    float: left;
+    width: 242px;
+    height: 42px;
+}
+
+.contactBody {
+    padding: 15px 20px 0px 15px;
+}
+
+.section {
+    margin: 0px 0 0px 0;
+}
+
+.div.section table.form th {
+    padding: 4px 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 8px 7px 8px 0px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: normal;
+    font-family: 'Roboto Slab', serif;
+    color: #3B5998;
+}
+h2 a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+div.small_section th {
+    width: 142px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.logo {
+    align-items: center;
+    display: block;
+    float: left;
+    padding: 4px 7px 7px 4px;
+    background-repeat: no-repeat;
+}
+
+.gender {
+    width: 152px;
+    height: 152px;
+    display: block;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border:3px solid #8AB040;
+    border-radius:50%;
+
+}
+
+/*.icon {
+    width: 24px;
+    height: 24px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url(/Images/Icon/point_icon_nu.png);
+    margin-left:38px;
+}*/
+
+ul#listGroups {
+    list-style-image: url(/Images/Icon/member_icon_nu.png);
+    font-size:14px;
+   
+}
+
+#listGroups {
+    padding-left: 70px;
+}
+
+.point {
+    margin: 10px 0;
+}
+
+i.icon span {
+    padding-left: 7px;
+}
+
+.grade {
+    border-top: 1px solid #ddd;
+}
+
+div.grade > a {
+    text-decoration: none;
+}
+
+    div.grade > a > div {
+        display: block;
+        padding: 10px 0 2px 50px;
+    }
+
+        div.grade > a > div:last-child {
+            color: red;
+        }
+
+        div.grade > a > div:first-child {
+            color: #464646;
+            font-family: roboto slab;
+            font-size: 12px;
+            text-align: center;
+            margin-top: 10px;
+            padding: 0;
+        }
+
+.litTotalPoint {
+    padding-left: 7px;
+}
+
+.litTotalPoint a{
+    color: #8AB040 !important;
+    font-size: large !important;
+    text-decoration:none !important;
+}
+
+table.contactInfo {
+    margin-top: 10px;
+}
+
+    table.contactInfo thead tr th, table.contactInfo tr.floating th {
+        height: 28px;
+        line-height: 16px;
+        padding: 8px 15px 8px 15px;
+        font-weight: bold;
+        background-color: white;
+        border-top: solid 1px #d8d8d8;
+        border-bottom: solid 1px #d8d8d8;
+    }
+
+    table.contactInfo th.number, table.contactInfo td.number {
+        text-align: right;
+    }
+
+    table.contactInfo th, table.contactInfo td {
+        padding: 8px 15px 8px 15px;
+    }
+
+    table.contactInfo tbody td:nth-child(-n+3) a, table.contactInfo tbody td:nth-child(-n+3) a:visited {
+        font-weight: bold;
+    }
+
+    table.contactInfo tbody td a, table.contactInfo tbody td a:visited {
+        display: block;
+        color: #8AB040;
+        text-decoration: none;
+    }
+
+.borderRight {
+    border-right: solid 1px #d8d8d8;
+}
+
+.borderLeft {
+    border-left: solid 1px #d8d8d8;
+}
+
+.itemBorderLeft {
+    border-left: solid 1px #d8d8d8;
+}
+
+.itemBorderRight {
+    border-right: solid 1px #d8d8d8;
+}
+
+table.contactInfo tbody tr:last-child {
+    border-bottom: solid 1px #d8d8d8;
+}
+
+div.body {
+    margin-bottom: 20px;
+}
+
+div.small_section td {
+    padding-bottom: 10px;
+}
